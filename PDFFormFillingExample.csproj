@@ -1,0 +1,68 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+    <Folder Include="Services\" />
+    <Folder Include="Domain\" />
+    <Folder Include="Constants\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="iTextSharp.LGPLv2.Core" Version="1.4.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="PDFFormFillingExampleTests\obj\Debug\netcoreapp2.1\PDFFormFillingExampleTests.assets.cache" />
+    <None Remove="PDFFormFillingExampleTests\bin\Debug\netcoreapp2.1\PDFFormFillingExample.dll" />
+    <None Remove="PDFFormFillingExampleTests\obj\PDFFormFillingExampleTests.csproj.nuget.g.props" />
+    <None Remove="PDFFormFillingExampleTests\obj\PDFFormFillingExampleTests.csproj.nuget.g.targets" />
+    <None Remove="PDFFormFillingExampleTests\obj\PDFFormFillingExampleTests.csproj.nuget.cache" />
+    <None Remove="PDFFormFillingExampleTests\obj\Debug\netcoreapp2.1\PDFFormFillingExampleTests.csprojAssemblyReference.cache" />
+    <None Remove="PDFFormFillingExampleTests\obj\Debug\netcoreapp2.1\PDFFormFillingExampleTests.csproj.CoreCompileInputs.cache" />
+    <None Remove="PDFFormFillingExampleTests\obj\Debug\netcoreapp2.1\PDFFormFillingExampleTests.AssemblyInfoInputs.cache" />
+    <None Remove="PDFFormFillingExampleTests\obj\Debug\netcoreapp2.1\PDFFormFillingExampleTests.dll" />
+    <None Remove="PDFFormFillingExampleTests\obj\Debug\netcoreapp2.1\PDFFormFillingExampleTests.pdb" />
+    <None Remove="PDFFormFillingExampleTests\obj\Debug\netcoreapp2.1\PDFFormFillingExampleTests.csproj.CopyComplete" />
+    <None Remove="PDFFormFillingExampleTests\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll" />
+    <None Remove="PDFFormFillingExampleTests\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll" />
+    <None Remove="PDFFormFillingExampleTests\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll" />
+    <None Remove="PDFFormFillingExampleTests\bin\Debug\netcoreapp2.1\PDFFormFillingExampleTests.dll" />
+    <None Remove="PDFFormFillingExampleTests\bin\Debug\netcoreapp2.1\PDFFormFillingExampleTests.pdb" />
+    <None Remove="PDFFormFillingExampleTests\obj\Debug\netcoreapp2.1\PDFFormFillingExampleTests.csproj.FileListAbsolute.txt" />
+    <None Remove="PDFFormFillingExampleTests\bin\Release\netcoreapp2.1\PDFFormFillingExample.dll" />
+    <None Remove="PDFFormFillingExampleTests\SamplePDFForm.pdf" />
+    <None Remove="PDFFormFillingExampleTests\obj\Release\netcoreapp2.1\PDFFormFillingExampleTests.assets.cache" />
+    <None Remove="PDFFormFillingExampleTests\obj\Release\netcoreapp2.1\PDFFormFillingExampleTests.csprojAssemblyReference.cache" />
+    <None Remove="PDFFormFillingExampleTests\obj\Release\netcoreapp2.1\PDFFormFillingExampleTests.csproj.CoreCompileInputs.cache" />
+    <None Remove="PDFFormFillingExampleTests\obj\Release\netcoreapp2.1\PDFFormFillingExampleTests.AssemblyInfoInputs.cache" />
+    <None Remove="PDFFormFillingExampleTests\obj\Release\netcoreapp2.1\PDFFormFillingExampleTests.dll" />
+    <None Remove="PDFFormFillingExampleTests\obj\Release\netcoreapp2.1\PDFFormFillingExampleTests.pdb" />
+    <None Remove="PDFFormFillingExampleTests\obj\Release\netcoreapp2.1\PDFFormFillingExampleTests.csproj.CopyComplete" />
+    <None Remove="PDFFormFillingExampleTests\bin\Release\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll" />
+    <None Remove="PDFFormFillingExampleTests\bin\Release\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll" />
+    <None Remove="PDFFormFillingExampleTests\bin\Release\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll" />
+    <None Remove="PDFFormFillingExampleTests\bin\Release\netcoreapp2.1\SamplePDFForm.pdf" />
+    <None Remove="PDFFormFillingExampleTests\bin\Release\netcoreapp2.1\PDFFormFillingExampleTests.dll" />
+    <None Remove="PDFFormFillingExampleTests\bin\Release\netcoreapp2.1\PDFFormFillingExampleTests.pdb" />
+    <None Remove="PDFFormFillingExampleTests\obj\Release\netcoreapp2.1\PDFFormFillingExampleTests.csproj.FileListAbsolute.txt" />
+    <None Remove="PDFFormFillingExampleTests\bin\Release\netcoreapp2.1\SamplePDFFormFilled.pdf" />
+    <None Remove="PDFFormFillingExampleTests\obj\PDFFormFillingExampleTests.csproj.nuget.g.props" />
+    <None Remove="PDFFormFillingExampleTests\obj\PDFFormFillingExampleTests.csproj.nuget.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="PDFFormFillingExampleTests\Services\SamplePDFFormServiceTests.cs" />
+    <Compile Remove="PDFFormFillingExampleTests\obj\Debug\netcoreapp2.1\PDFFormFillingExampleTests.Program.cs" />
+    <Compile Remove="PDFFormFillingExampleTests\obj\Debug\netcoreapp2.1\PDFFormFillingExampleTests.AssemblyInfo.cs" />
+    <Compile Remove="PDFFormFillingExampleTests\Services\SamplePDFFormServiceTests.cs" />
+    <Compile Remove="PDFFormFillingExampleTests\obj\Release\netcoreapp2.1\PDFFormFillingExampleTests.Program.cs" />
+    <Compile Remove="PDFFormFillingExampleTests\obj\Release\netcoreapp2.1\PDFFormFillingExampleTests.AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="PDFFormFillingExampleTests\obj\project.assets.json" />
+  </ItemGroup>
+</Project>

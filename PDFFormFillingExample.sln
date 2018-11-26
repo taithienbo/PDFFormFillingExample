@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFFormFillingExample", "PDFFormFillingExample.csproj", "{B8194026-F580-45BB-A9CE-20B8547AF753}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFFormFillingExampleTests", "PDFFormFillingExampleTests\PDFFormFillingExampleTests.csproj", "{67D317FE-7BC8-4924-AD17-B522950FFCA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8194026-F580-45BB-A9CE-20B8547AF753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8194026-F580-45BB-A9CE-20B8547AF753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8194026-F580-45BB-A9CE-20B8547AF753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8194026-F580-45BB-A9CE-20B8547AF753}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67D317FE-7BC8-4924-AD17-B522950FFCA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67D317FE-7BC8-4924-AD17-B522950FFCA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67D317FE-7BC8-4924-AD17-B522950FFCA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67D317FE-7BC8-4924-AD17-B522950FFCA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
